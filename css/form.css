@@ -1,0 +1,67 @@
+form {
+  /* border: 1px solid var(--dark-pink); */
+  /* padding: 10px 50px; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+.bg-img {
+  /* background: #6262627b url("../images/pexels-brand-&-palms-768975.jpg"); */
+  /* background-image: url("../images/pexels-andrea-piacquadio-974911.jpg"); */
+
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* width: 100%; */
+  /* height: calc(100vh - 78px); */
+  /* background-size: top center; */
+  /* background-position: top center; */
+  /* filter: opacity(0.8); */
+  /* filter: blur(1px); */
+  /* background-blend-mode: multiply; */
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.log-in {
+  color: var(--danger-color);
+}
+.log-in:hover {
+  color: var(--light-pink-4);
+}
+#submitBtn {
+  background-color: var(--dark-pink);
+  color: wheat;
+}
+#submitBtn:hover {
+  background-color: var(--light-pink-color);
+}
+nav {
+  background-color: var(--light-pink-1);
+}
+section {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--light-pink-1),
+    var(--light-pink-2)
+  );
+  min-height: calc(100vh - 77px);
+}
+.form-floating label {
+  font-size: 14px !important;
+}
+.form-floating input {
+  /* height: 40px !important; */
+  /* padding: 5px 40px !important; */
+}
+section h1 {
+  color: var(--dark-pink) !important;
+}
+@media (max-width: 770px) {
+  .form {
+    width: 70% !important;
+  }
+}
+@media (max-width: 500px) {
+  .form {
+    width: 90% !important;
+  }
+}

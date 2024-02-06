@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo3.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars small-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav m-auto mb-2 mb-lg-0 align-items-center d-none main-nav"
+          >
+            <li class="nav-item">
+              <a class="nav-link active p-2 p-lg-3" aria-current="page" href="#"
+                >Tops</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-capitalize" href="#"
+                >Dresses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-capitalize" href="#"
+                >outwear</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">winter collection</a>
+            </li>
+          </ul>
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center log-nav"
+          >
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link" href="login.html" role="button">
+                <i class="fas fa-user"></i> Login
+              </a>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link" href="sign-up.html" role="button">
+                <i class="fas fa-user-plus"></i> sign up
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center d-none main-nav"
+          >
+            <li class="nav-item pt-lg-0 pt-2">
+              <button
+                type="button"
+                class="nav-link text-capitalize btn position-relative count-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#cartModal"
+              >
+                <i class="fas fa-shopping-cart"> </i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >
+                  0
+                </span>
+              </button>
+            </li>
+            <li class="nav-item pt-lg-0 pt-2">
+              <a class="nav-link p-2 p-lg-3 username" href="cart.html">
+                <i class="fas fa-user"></i>
+              </a>
+            </li>
+            <li class="nav-item pt-lg-0 pt-2 logout">
+              <button type="button" class="nav-link">
+                <i class="fas fa-sign-out-alt"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section-form text-uppercase form-signin m-auto bg-img py-3">
+      <!-- <div class="bg-img w-50"></div> -->
+      <form class="m-auto w-50 form py-2 px-5">
+        <!-- <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+        <h1 class="h3 my-3 fw-normal text-center">create an account</h1>
+        <div class="form-floating mb-2">
+          <input
+            type="username"
+            class="form-control"
+            id="name"
+            placeholder="ahmed essam"
+            required
+          />
+          <label for="name" class="text-secondary">User Name</label>
+        </div>
+        <div class="form-floating mb-2">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="name@example.com"
+            required
+          />
+          <label for="email" class="text-secondary">Email address</label>
+        </div>
+        <div class="form-floating mb-2">
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <label for="password" class="text-secondary">Password</label>
+        </div>
+        <div class="form-floating mb-2">
+          <input
+            type="password"
+            class="form-control"
+            id="password2"
+            placeholder="Password"
+            required
+          />
+          <label for="password2" class="text-secondary">ReEnter Password</label>
+        </div>
+
+        <button class="btn w-100 py-2" type="submit" id="submitBtn">
+          Sign up
+        </button>
+        <p class="text-center mt-2 text-capitalize">
+          Already have an account!
+          <a class="text-decoration-none log-in" role="button" href="login.html"
+            >Log in</a
+          >
+        </p>
+      </form>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/sign-up.js"></script>
+  </body>
+</html>
