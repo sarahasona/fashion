@@ -9,7 +9,7 @@ let products = [
     lastArrived: true,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC06414-400x600.jpg",
+    image: "images/DSC06414-400x600.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ let products = [
     lastArrived: true,
     category: "winter-collection",
     topSelling: false,
-    image: "../images/DSC03508-800x1199.jpg",
+    image: "images/DSC03508-800x1199.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ let products = [
     lastArrived: true,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC06534-768x1151.jpg",
+    image: "images/DSC06534-768x1151.jpg",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ let products = [
     lastArrived: true,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC06575-400x600.jpg",
+    image: "images/DSC06575-400x600.jpg",
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ let products = [
     lastArrived: false,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC06349-1025x1536.jpg",
+    image: "images/DSC06349-1025x1536.jpg",
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ let products = [
     lastArrived: false,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC05123-1025x1536.jpg",
+    image: "images/DSC05123-1025x1536.jpg",
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ let products = [
     lastArrived: true,
     category: "winter-collection",
     topSelling: true,
-    image: "../images/DSC05055-1025x1536.jpg",
+    image: "images/DSC05055-1025x1536.jpg",
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ let products = [
     lastArrived: true,
     category: "tops",
     topSelling: true,
-    image: "../images/DSC04148-1025x1536.jpg",
+    image: "images/DSC04148-1025x1536.jpg",
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ let products = [
     lastArrived: false,
     category: "sets",
     topSelling: true,
-    image: "../images/DSC00513.jpg",
+    image: "images/DSC00513.jpg",
   },
   {
     id: 10,
@@ -117,7 +117,7 @@ let products = [
     lastArrived: false,
     category: "sets",
     topSelling: true,
-    image: "../images/DSC00552-400x600.jpg",
+    image: "images/DSC00552-400x600.jpg",
   },
   {
     id: 11,
@@ -129,7 +129,7 @@ let products = [
     lastArrived: true,
     category: "sets",
     topSelling: true,
-    image: "../images/DSC03024-400x600.jpg",
+    image: "images/DSC03024-400x600.jpg",
   },
   {
     id: 12,
@@ -141,7 +141,7 @@ let products = [
     lastArrived: true,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC05557-683x1024.jpg",
+    image: "images/DSC05557-683x1024.jpg",
   },
   {
     id: 13,
@@ -153,7 +153,7 @@ let products = [
     lastArrived: false,
     category: "trousers",
     topSelling: true,
-    image: "../images/velvet.jpg",
+    image: "images/velvet.jpg",
   },
   {
     id: 14,
@@ -165,7 +165,7 @@ let products = [
     lastArrived: true,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC00359.jpg",
+    image: "images/DSC00359.jpg",
   },
   {
     id: 15,
@@ -177,7 +177,7 @@ let products = [
     lastArrived: false,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC06414-150x225.jpg",
+    image: "images/DSC06414-150x225.jpg",
   },
   {
     id: 16,
@@ -189,7 +189,7 @@ let products = [
     lastArrived: false,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC02933-800x1199.jpg",
+    image: "images/DSC02933-800x1199.jpg",
   },
   {
     id: 17,
@@ -201,7 +201,7 @@ let products = [
     lastArrived: true,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC02862.jpg",
+    image: "images/DSC02862.jpg",
   },
   {
     id: 18,
@@ -213,7 +213,7 @@ let products = [
     lastArrived: false,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC00359.jpg",
+    image: "images/DSC00359.jpg",
   },
   {
     id: 19,
@@ -225,7 +225,7 @@ let products = [
     lastArrived: false,
     category: "trousers",
     topSelling: true,
-    image: "../images/DSC00429.jpg",
+    image: "images/DSC00429.jpg",
   },
   {
     id: 20,
@@ -237,7 +237,7 @@ let products = [
     lastArrived: true,
     category: "trousers",
     topSelling: true,
-    image: "../images/ABDSC07599-800x1199.jpg",
+    image: "images/ABDSC07599-800x1199.jpg",
   },
   {
     id: 21,
@@ -249,7 +249,7 @@ let products = [
     lastArrived: false,
     category: "dresses",
     topSelling: true,
-    image: "../images/DSC04265-400x600.jpg",
+    image: "images/DSC04265-400x600.jpg",
   },
   {
     id: 22,
@@ -261,6 +261,6 @@ let products = [
     lastArrived: false,
     category: "dresses",
     topSelling: true,
-    image: "../images/DSC00317-400x600.jpg",
+    image: "images/DSC00317-400x600.jpg",
   },
 ];
